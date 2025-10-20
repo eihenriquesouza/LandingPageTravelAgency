@@ -1,5 +1,3 @@
-
-// For Sponsor Logo 
 $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 0,
@@ -18,7 +16,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
-// StickyTop 
 $(window).scroll(function () {
     const scroll = $(window).scrollTop();
 
@@ -28,8 +25,6 @@ $(window).scroll(function () {
         $(".navbar").removeClass("sticky-top-nav");
     }
 });
-
-// Testimonial Slider
 
 var slideIndex = 1;
 displaySlide(slideIndex);
@@ -42,7 +37,6 @@ function activeSlide(n) {
     displaySlide(slideIndex = n);
 }
 
-/* Main function */
 function displaySlide(n) {
     var i;
     var totalslides = $(".slide");
