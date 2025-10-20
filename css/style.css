@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Base CSS  */
 * {
     margin: 0;
     padding: 0;
@@ -56,10 +55,6 @@ h6 {
     font-size: 18px !important;
 }
 
-/* Base CSS  End*/
-
-
-/* ==== NavBar CSS ==== */
 .navbar-nav .nav-link {
     color: #212832 !important;
 }
@@ -73,10 +68,6 @@ h6 {
     transition: ease all .5s;
 }
 
-/* ==== NavBar CSS End ==== */
-
-
-/* ==== Header CSS ==== */
 .hero-bg {
     position: absolute;
     width: 100%;
@@ -188,12 +179,6 @@ h6 {
     color: #686D77;
 }
 
-
-/* ==== Header CSS End ==== */
-
-
-
-/* ==== Services CSS  ==== */
 .position-absolute.z-index--1.end-0.d-none.d-lg-block {
     position: relative !important;
 }
@@ -301,10 +286,6 @@ h6 {
     color: #1E1D4C;
 }
 
-/* ==== Services CSS End ==== */
-
-
-/* ==== Destination CSS  ==== */
 .card.overflow-hidden.shadow {
     border-radius: 1.5rem;
 }
@@ -322,10 +303,6 @@ h6 {
     }
 }
 
-/* ==== Destination CSS End ==== */
-
-
-/* ==== Booking CSS  ==== */
 .show-onhover .hideEl {
     visibility: hidden;
     opacity: 1;
@@ -372,9 +349,6 @@ h6 {
     background-color: #006380 !important;
 }
 
-/* ==== Booking CSS End ==== */
-
-/* ==== Testimonial CSS  ==== */
 .col-lg-1.testimonal-control button {
     background: 0;
     border: 0;
@@ -415,10 +389,6 @@ h6 {
     }
 }
 
-
-/* ==== Testimonial CSS End ==== */
-
-/* ==== Sponsor CSS ==== */
 .s-logo {
 
     filter: grayscale(0);
@@ -438,9 +408,6 @@ h6 {
     height: 32px;
 }
 
-/* ==== Sponsor CSS End ==== */
-
-/* ==== Call To Action CSS  ==== */
 
 .py-8 {
     padding-top: 5rem !important;
@@ -504,10 +471,6 @@ h6 {
     }
 }
 
-/* ==== Call To Action CSS End ==== */
-
-
-/* ==== Footer CSS  ==== */
 .icon-items {
     background: #FFFFFF;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
@@ -527,5 +490,3 @@ h6 {
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     transition: .3s;
 }
-
-/* ==== Footer CSS End ==== */
